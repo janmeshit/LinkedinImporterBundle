@@ -151,13 +151,23 @@ class Importer
     }
 
     /**
-     * Sets public profile url
-     * @param  string                                        $value
+     * Sets a sanity-checked public profile url
+     * @param  string                                        $url
      * @return \CCC\LinkedinImporterBundle\Importer\Importer
      */
-    public function setPublicProfileUrl($value)
+    public function setPublicProfileUrl($url)
     {
-        $this->_public_profile_url = (string) $value;
+        // Avoids errors like: "[invalid.param.url]. Public profile URL is not correct, {url=xyz should be
+        // {https://www.linkedin.com/pub/[member-name/]x/y/z}.  LinkedIn won't validate it's own public urls that
+        // have a language / country code appended
+        $matches = array();
+        preg_match('"^https?://((www|\w\w)\.)?linkedin.com/((in/[^/]+/?)|(pub/[^/]+/((\w|\d)+/?){3}))"', $url, $matches);
+        if (count($matches)) {
+            $url = current($matches);
+        }
+        $url = rtrim($url, '/');
+
+        $this->_public_profile_url = $url;
 
         return $this;
     }
