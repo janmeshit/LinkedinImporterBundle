@@ -17,4 +17,5 @@ class FormsTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('privaterequest', $privateForm->getName());
         $this->assertEquals('requestpublic', $publicForm->getName());
     }
+
 }

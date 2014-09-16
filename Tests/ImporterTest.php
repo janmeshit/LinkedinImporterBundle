@@ -4,7 +4,6 @@ namespace CCC\LinkedinImporterBundle\Tests;
 
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 use Symfony\Component\HttpFoundation\Session\Session;
-
 use CCC\LinkedinImporterBundle\Importer\Importer;
 
 /**
@@ -25,4 +24,5 @@ class ImporterTest extends \PHPUnit_Framework_TestCase
         $this->assertEmpty($this->importer->getState());
         $this->assertFalse($this->importer->isStateValid('xyz'));
     }
+
 }
