@@ -24,7 +24,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new CCC\LinkedinImporterBundle\LinkedinImporterBundle(),
+        new CCC\LinkedinImporterBundle\CCCLinkedinImporterBundle(),
         // ...
     );
 ```
