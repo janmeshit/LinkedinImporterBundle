@@ -3,12 +3,16 @@
     "type": "symfony-bundle",
     "description": "Linkedin profile data importer for symfony",
     "keywords": ["symfony", "linkedin", "profile"],
-    "homepage": "http://github.com/cc-consulting/LinkedinImporterBundle",
+    "homepage": "http://github.com/tamago-db/LinkedinImporterBundle",
     "license": ["MIT"],
     "authors": [
         {
             "name": "J.R. Cook",
             "email": "james.cook@ccconsulting.jp"
+        },
+        {
+            "name": "Evan Owens",
+            "email": "evan.owens@tamago-db.com"
         }
     ],
     "require": {
