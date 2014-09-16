@@ -265,7 +265,7 @@ class Importer
                 }
 
                 $url = $config['urls']['public']
-                    . $this->getPublicProfileUrl()
+                    . urlencode(urldecode($this->getPublicProfileUrl()))  // make sure the url is encoded; avoid double encoding
                     . $config['dataset'][$type]['fields'];
                 break;
             case 'private':
