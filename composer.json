@@ -20,6 +20,7 @@
         "symfony/symfony": "~2.3"
     },
     "autoload": {
-        "psr-4": { "CCC\\LinkedinImporterBundle": "" }
-    }
+        "psr-4": { "CCC\\LinkedinImporterBundle\\": "" }
+    },
+    "target-dir": "CCC/LinkedinImporterBundle"
 }
