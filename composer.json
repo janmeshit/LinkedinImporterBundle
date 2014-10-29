@@ -1,7 +1,7 @@
 {
     "name": "ccc/linkedin-importer-bundle",
     "type": "symfony-bundle",
-    "description": "Linkedin profile data importer for symfony",
+    "description": "LinkedIn profile data importer for symfony",
     "keywords": ["symfony", "linkedin", "profile"],
     "homepage": "http://github.com/tamago-db/LinkedinImporterBundle",
     "license": ["MIT"],
@@ -20,8 +20,6 @@
         "symfony/symfony": "~2.3"
     },
     "autoload": {
-        "psr-0": { "CCC\\LinkedinImporterBundle": "" }
-    },
-    "target-dir": "CCC/LinkedinImporterBundle",
-    "minimum-stability": "dev"
+        "psr-4": { "CCC\\LinkedinImporterBundle": "" }
+    }
 }
