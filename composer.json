@@ -21,6 +21,5 @@
     },
     "autoload": {
         "psr-4": { "CCC\\LinkedinImporterBundle\\": "" }
-    },
-    "target-dir": "CCC/LinkedinImporterBundle"
+    }
 }
