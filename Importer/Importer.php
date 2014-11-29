@@ -166,6 +166,11 @@ class Importer
             $url = current($matches);
         }
         $url = rtrim($url, '/');
+        
+        //according to their manual and forums, all linkedin public urls should begin with 'https://www.linkedin.com'
+        //(they said they'd always support it even if it did ever change, which is highly unlikely)
+        //so just chop it off and force it to be that
+        $url = preg_replace('/^(.*)linkedin.com\//i', 'https://www.linkedin.com/', $url);
 
         $this->_public_profile_url = $url;
 
