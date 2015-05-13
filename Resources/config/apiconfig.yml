@@ -30,3 +30,7 @@ parameters:
            private:
               scope: "r_emailaddress r_contactinfo r_fullprofile"
               fields: ":(first-name,last-name,location:(country:(code)),headline,email-address,industry,summary,id,educations,positions:(id,title,summary,start-date,end-date,company,location),date-of-birth,phone-numbers,public-profile-url,picture-url,skills)"
+           #this scope works when using the LinkedIn API as a non-partner
+           basic:
+              scope: "r_emailaddress r_basicprofile"
+              fields: ":(first-name,last-name,location:(country:(code)),headline,email-address,industry,summary,id,educations,positions:(id,title,summary,start-date,end-date,company,location),date-of-birth,phone-numbers,public-profile-url,picture-url,skills)"
