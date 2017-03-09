@@ -7,11 +7,6 @@ use CCC\LinkedinImporterBundle\Form as LiForm;
 
 class DefaultController extends Controller
 {
-    public function indexAction($name)
-    {
-        return $this->render('CCCLinkedinImporterBundle:Default:index.html.twig', array('name' => $name));
-    }
-
     /**
      * Example of how to request the user's private data.
      */
