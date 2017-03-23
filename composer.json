@@ -1,5 +1,5 @@
 {
-    "name": "tamago/linkedin-importer-bundle",
+    "name": "ccc/linkedin-importer-bundle",
     "type": "symfony-bundle",
     "description": "LinkedIn profile data importer for symfony",
     "keywords": ["symfony", "linkedin", "profile"],
@@ -20,6 +20,6 @@
         "symfony/symfony": "~3.2"
     },
     "autoload": {
-        "psr-4": { "Tamago\\LinkedinImporterBundle\\": "" }
+        "psr-4": { "CCC\\LinkedinImporterBundle\\": "" }
     }
 }

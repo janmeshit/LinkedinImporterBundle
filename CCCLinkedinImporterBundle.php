@@ -1,6 +1,6 @@
 <?php
 
-namespace Tamago\LinkedinImporterBundle;
+namespace CCC\LinkedinImporterBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

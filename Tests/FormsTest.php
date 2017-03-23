@@ -1,6 +1,6 @@
 <?php
 
-namespace Tamago\LinkedinImporterBundle\Tests;
+namespace CCC\LinkedinImporterBundle\Tests;
 
 use Tamago\LinkedinImporterBundle\Form\RequestPrivate;
 use Tamago\LinkedinImporterBundle\Form\RequestPublic;
