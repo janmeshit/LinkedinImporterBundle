@@ -2,8 +2,8 @@
 
 namespace CCC\LinkedinImporterBundle\Tests;
 
-use Tamago\LinkedinImporterBundle\Form\RequestPrivate;
-use Tamago\LinkedinImporterBundle\Form\RequestPublic;
+use CCC\LinkedinImporterBundle\Form\RequestPrivate;
+use CCC\LinkedinImporterBundle\Form\RequestPublic;
 
 /**
  * Stubbing out some tentative tests

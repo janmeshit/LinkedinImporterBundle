@@ -1,5 +1,5 @@
 parameters:
-    Tamago_linkedin_importer:
+    ccc_linkedin_importer:
         #linkedin's api urls. Do not change.
         urls:
             #the page on linkedin's site where the user approves access to your application

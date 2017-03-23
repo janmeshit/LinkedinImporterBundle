@@ -2,7 +2,7 @@ parameters:
 
 services:
    ccc_linkedin_importer.importer:
-      class: Tamago\LinkedinImporterBundle\Importer\Importer
-      arguments: [ @session, %ccc_linkedin_importer% ]
+      class: CCC\LinkedinImporterBundle\Importer\Importer
+      arguments: [ '@session', %ccc_linkedin_importer% ]
 
 # %ccc_linkedin_importer% to be defined in config of application using this bundle
