@@ -1,6 +1,6 @@
 <?php
 
-namespace CCC\LinkedinImporterBundle\Importer;
+namespace Tamago\LinkedinImporterBundle\Importer;
 
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\RedirectResponse;

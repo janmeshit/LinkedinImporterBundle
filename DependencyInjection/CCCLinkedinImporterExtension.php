@@ -1,6 +1,6 @@
 <?php
 
-namespace CCC\LinkedinImporterBundle\DependencyInjection;
+namespace Tamago\LinkedinImporterBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -1,10 +1,10 @@
 <?php
 
-namespace CCC\LinkedinImporterBundle\Tests;
+namespace Tamago\LinkedinImporterBundle\Tests;
 
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 use Symfony\Component\HttpFoundation\Session\Session;
-use CCC\LinkedinImporterBundle\Importer\Importer;
+use Tamago\LinkedinImporterBundle\Importer\Importer;
 
 /**
  * Basic tests for the Importer

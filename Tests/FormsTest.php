@@ -1,9 +1,9 @@
 <?php
 
-namespace CCC\LinkedinImporterBundle\Tests;
+namespace Tamago\LinkedinImporterBundle\Tests;
 
-use CCC\LinkedinImporterBundle\Form\RequestPrivate;
-use CCC\LinkedinImporterBundle\Form\RequestPublic;
+use Tamago\LinkedinImporterBundle\Form\RequestPrivate;
+use Tamago\LinkedinImporterBundle\Form\RequestPublic;
 
 /**
  * Stubbing out some tentative tests

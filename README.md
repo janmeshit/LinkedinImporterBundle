@@ -11,7 +11,7 @@ Installation
 ``` json
 {
     "require": {
-        "ccc/linkedin-importer-bundle": "dev-master"
+        "tamago/linkedin-importer-bundle": "dev-master"
         ...
     }
 }
@@ -24,7 +24,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new CCC\LinkedinImporterBundle\CCCLinkedinImporterBundle(),
+        new Tamago\LinkedinImporterBundle\CCCLinkedinImporterBundle(),
         // ...
     );
 ```

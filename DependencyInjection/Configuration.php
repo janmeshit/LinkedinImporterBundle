@@ -1,6 +1,6 @@
 <?php
 
-namespace CCC\LinkedinImporterBundle\DependencyInjection;
+namespace Tamago\LinkedinImporterBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
